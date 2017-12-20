@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="omnips"
+           fetch="https://github.com/OmniPowerSave"
+           />
+
+
+  <project path="frameworks/av" name="android_frameworks_av" remote="omnips" revision="android-8.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omnips" revision="android-8.1" />
+  <!-- project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-8.1" / -->
+  <!-- project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.1" / -->
+
+</manifest>
